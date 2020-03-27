@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector
+    android:drawable="@drawable/ic_obl"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmls:ignore="NewApi">
+
+    <target
+        android:animation = "@anim/ob1"
+        android:name = "ob1"
+        />
+
+    <target
+        android:animation = "@anim/ob2"
+        android:name = "ob2"
+        />
+
+    <target
+        android:animation = "@anim/ob3"
+        android:name = "ob3"
+        />
+
+    <target
+        android:animation = "@anim/ob4"
+        android:name = "ob4"
+        />
+
+    <target
+        android:animation = "@anim/ob5"
+        android:name = "ob5"
+        />
+
+    <target
+        android:animation = "@anim/ob6"
+        android:name = "ob6"
+        />
+
+    <target
+        android:animation = "@anim/ob7"
+        android:name = "ob7"
+        />
+
+
+
+</animated-vector>

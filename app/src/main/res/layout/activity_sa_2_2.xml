@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SA_2_2">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp">
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_ppl" />
+
+    <ImageView
+        android:id="@+id/mail"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/swch1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_mail" />
+
+    <ImageView
+        android:id="@+id/green12"
+        android:layout_width="28dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_green_light_" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:layout_width="5dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="90dp"
+        android:max="100"
+        android:theme="@style/CircularProgress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/night_mode_r" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/night_mode" />
+
+    <ImageView
+        android:id="@+id/anim2"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/anim3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_p_video"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/anim"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/anim4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_pws"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/anim3"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_ws_12"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/anim4"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="80dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="@+id/anim2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_p_text"
+        tools:ignore="MissingConstraints" />
+
+    <Switch
+        android:id="@+id/swch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:checked="true"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:thumb="@drawable/ic_swch"
+        android:track="@drawable/switch_img"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/pdfView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:checked="true" />
+
+
+</android.support.constraint.ConstraintLayout>

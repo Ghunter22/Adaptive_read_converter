@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector
+    android:drawable="@drawable/ic_r_hand"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmls:ignore="NewApi">
+
+    <target
+        android:animation = "@anim/r_h"
+        android:name = "play"
+        />
+    <target
+        android:animation = "@anim/r_h1"
+        android:name = "hand"
+        />
+
+</animated-vector>

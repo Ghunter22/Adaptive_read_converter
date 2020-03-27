@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SA_1_1">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
+    <ImageView
+        android:id="@+id/shield"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer"
+        app:srcCompat="@drawable/ic_shield" />
+
+    <ImageView
+        android:id="@+id/green1"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/butVid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_light1" />
+
+    <ImageView
+        android:id="@+id/green2"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/butVid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_light2" />
+
+    <ImageView
+        android:id="@+id/timer"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/timer" />
+
+    <ImageView
+        android:id="@+id/del_arc"
+        android:layout_width="480dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/butDel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arc_del"
+        android:alpha="0.80"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/butTxt"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_tx1"
+        android:textSize="12sp"
+        android:alpha="0.80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/butWs"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_ws"
+        android:textSize="12sp"
+        android:alpha="0.80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/butTxt" />
+
+    <Button
+        android:id="@+id/butVid"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+
+        android:alpha="0.80"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_pw1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butIm"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:alpha="0.80"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/ic_im_1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butVid" />
+
+    <Button
+        android:id="@+id/butDel"
+        android:layout_width="65dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_f_arc_del"
+        app:layout_constraintBottom_toBottomOf="@+id/pdfView"
+        app:layout_constraintEnd_toStartOf="@+id/butWs"
+        app:layout_constraintHorizontal_bias="0.488"
+        android:alpha="0.80"
+        app:layout_constraintStart_toEndOf="@+id/butIm" />
+
+
+</android.support.constraint.ConstraintLayout>

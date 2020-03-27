@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector
+    android:drawable="@drawable/ic_bg_2"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmls:ignore="NewApi">
+
+    <target
+        android:animation = "@anim/kv1"
+        android:name = "kv1"
+        />
+
+    <target
+        android:animation = "@anim/kv2"
+        android:name = "kv2"
+        />
+ <!--   <target
+        android:animation = "@anim/kv3"
+        android:name = "kv3"
+        />
+        -->
+    <target
+        android:animation = "@anim/kv4"
+        android:name = "kv4"
+        />
+    <target
+        android:animation = "@anim/kv5"
+        android:name = "kv5"
+        />
+    <target
+        android:animation = "@anim/kv6"
+        android:name = "kv6"
+        />
+    <target
+        android:animation = "@anim/kv7"
+        android:name = "kv7"
+        />
+    <target
+        android:animation = "@anim/kv8"
+        android:name = "kv8"
+        />
+    <target
+        android:animation = "@anim/kv9"
+        android:name = "kv9"
+        />
+    <target
+        android:animation = "@anim/kv10"
+        android:name = "kv10"
+        />
+    <target
+        android:animation = "@anim/kv11"
+        android:name = "kv11"
+        />
+    <target
+        android:animation = "@anim/kv12"
+        android:name = "kv12"
+        />
+    <target
+        android:animation = "@anim/kv13"
+        android:name = "kv13"
+        />
+    <target
+        android:animation = "@anim/kv14"
+        android:name = "kv14"
+        />
+
+
+</animated-vector>

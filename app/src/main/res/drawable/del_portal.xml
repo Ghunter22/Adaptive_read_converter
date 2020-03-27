@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector
+    android:drawable="@drawable/ic_portal2"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmls:ignore="NewApi">
+
+
+    <target
+        android:animation = "@anim/to_black"
+        android:name = "white1"
+        />
+    <target
+        android:animation = "@anim/to_white"
+        android:name ="black2"
+        />
+    <target
+        android:animation = "@anim/to_black"
+        android:name = "white2"
+        />
+    <target
+        android:animation = "@anim/to_white"
+        android:name = "black3"
+        />
+    <target
+        android:animation = "@anim/to_black"
+        android:name = "white3"
+        />
+    <target
+        android:animation = "@anim/to_white"
+        android:name = "black4"
+        />
+    <target
+        android:animation = "@anim/to_black"
+        android:name ="white4"
+        />
+    <target
+        android:animation = "@anim/to_white"
+        android:name ="black5"
+        />
+    <target
+        android:animation = "@anim/to_black"
+        android:name = "white5"
+        />
+    <target
+        android:animation = "@anim/to_white"
+        android:name = "black6"
+        />
+    <target
+        android:animation = "@anim/to_black"
+        android:name = "white6"
+        />
+
+
+
+
+
+
+</animated-vector>

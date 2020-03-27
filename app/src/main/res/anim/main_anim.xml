@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="100"
+        android:repeatCount="0"
+        android:repeatMode="restart"
+        android:valueFrom="#FFFFFF"
+        android:valueTo="#e00000"
+        android:valueType="colorType"
+        android:propertyName="fillColor"
+        android:startOffset="1750"
+        />
+
+
+
+
+</set>

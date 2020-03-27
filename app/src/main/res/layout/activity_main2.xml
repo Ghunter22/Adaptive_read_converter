@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck1"
+    tools:context=".Main2Activity">
+
+    <!--   <LinearLayout
+         android:id="@+id/linearLayout3"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+
+         android:orientation="horizontal"
+         app:layout_constraintStart_toEndOf="@+id/imageView7"
+         app:layout_constraintTop_toTopOf="parent">
+
+       <LinearLayout
+             style="@style/loginType"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/dark"
+             android:orientation="horizontal">
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             style="@style/loginType"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/light"
+             android:orientation="horizontal">
+
+         </LinearLayout>
+     </LinearLayout>
+ -->
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_castle" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_prog" />
+
+    <!--  <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hand_up" />
+ -->
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_cr1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_op" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="130dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_extt" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_inst" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_batrr2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_battr" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_hlp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_moon" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_lantern2" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_lantern" />
+
+
+</android.support.constraint.ConstraintLayout>

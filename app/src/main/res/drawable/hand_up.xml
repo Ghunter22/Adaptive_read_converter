@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animated-vector
+    android:drawable="@drawable/ic_main3"
+    xmlns:xmls="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmls:ignore="NewApi">
+
+    <target
+        android:animation = "@anim/up"
+        android:name = "hand"
+        />
+    <target
+        android:animation = "@anim/up"
+        android:name = "cil1"
+        />
+
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand1"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand2"
+        />
+
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand3"
+        />
+
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand4"
+        />
+
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand5"
+        />
+
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand6"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand7"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand8"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand9"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand10"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand11"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand12"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand13"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand14"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand15"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand16"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand17"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand18"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand19"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand20"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand21"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand22"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand23"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand24"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand25"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand26"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand27"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand28"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand29"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand30"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand31"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand32"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand33"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand34"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand35"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand36"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand37"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand38"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand39"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand40"
+        />
+    <target
+        android:animation = "@anim/hand_alpha"
+        android:name = "hand41"
+        />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand42"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand43"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand44"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand45"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand46"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand47"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand48"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand49"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand50"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand51"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand52"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand53"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand54"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand55"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand56"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand57"
+    />  <target
+    android:animation = "@anim/hand_alpha"
+    android:name = "hand58"
+    />
+
+
+
+</animated-vector>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+
+        android:duration="900"
+        android:repeatCount="0"
+        android:valueFrom="1000"
+        android:valueTo="-200"
+        android:valueType="floatType"
+        android:propertyName="translateX"
+        android:startOffset="10"
+        />
+    <objectAnimator
+
+        android:duration="1"
+        android:repeatCount="0"
+        android:valueFrom="-200"
+        android:valueTo="1000"
+        android:valueType="floatType"
+        android:propertyName="translateX"
+        android:startOffset="4601"
+        />
+
+
+</set>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sevatar.pw_pre_alpha">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".video_help"
+            android:screenOrientation="landscape"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".prog"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inst"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".code_check" />
+        <activity android:name=".help" />
+        <activity
+            android:name=".achivments"
+            android:noHistory="true" />
+        <activity
+            android:name=".game_menu"
+            android:noHistory="true" />
+        <activity
+            android:name=".game2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1_1_5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SA_1"
+            android:label="Second Activity1"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".SA_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SA_2"
+            android:label="Second Activity2"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name=".SA_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SA_2_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1_1_1"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SA_1_1_2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1_1_3"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SA_1_1_4"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ADD_VIDEO"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ADD_IMAGE"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ADD_WS"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ADD_TEXT"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="3983d89a583982fcec3041cd5d66ddff63f5d5db" />
+    </application>
+
+</manifest>

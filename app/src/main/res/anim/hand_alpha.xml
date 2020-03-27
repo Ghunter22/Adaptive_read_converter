@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+
+        android:duration="300"
+        android:propertyName="fillAlpha"
+        android:startOffset="1900"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"
+       />
+    <objectAnimator
+
+        android:duration="300"
+        android:propertyName="strokeAlpha"
+        android:startOffset="1900"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"
+        />
+</set>

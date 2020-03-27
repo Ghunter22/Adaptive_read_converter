@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">PW_PRE_ALPHA</string>
+    <string name="Exit">Выход</string>
+    <string name="Open">Открыть</string>
+    <string name="Create">Создать</string>
+
+
+    <string name="arc3255">TODO</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="button1">Текст</string>
+    <string name="button2">Сайт</string>
+    <string name="button3">Картинка</string>
+    <string name="button4">Видео</string>
+    <string name="pt1">Ссылка на видео</string>
+    <string name="pt2">Ссылка на видео</string>
+    <string name="addtxt">Ссылка на видео</string>
+    <string name="addcoment">Коментарий</string>
+    <string name="edttxt2">Коментарий</string>
+    <string name="edttxt1">Ссылка на видео</string>
+    <string name="butok">Ок</string>
+    <string name="edttxt3">Ссылка на картинку</string>
+    <string name="edttxt4">Коментарий</string>
+    <string name="edttxt5">Ссылка на сайт</string>
+    <string name="edttxt6">Коментарий</string>
+    <string name="edttxt7">Коментарий</string>
+    <string name="txtvw2">Загрузки</string>
+    <string name="txtvw3">Файлы с надстройками:</string>
+    <string name="txtvw5">Небольшое сообщение пользователю</string>
+    <string name="todo">TODO</string>
+    <string name="swch1">Уведомления</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="edttxt8">Введите время в секундах</string>
+    <string name="textview3">Установите минимальное время, на прочтение одной страницы</string>
+    <string name="score">Ваш счет:</string>
+    <string name="bests">Лучшие результаты:</string>
+    <string name="achivm">Достижения:</string>
+    <string name="bug">Нашли ошибку?</string>
+    <string name="mail">arc.mobile.help@gmail.com</string>
+    <string name="address">Сообщите о ней по адресу:</string>
+    <string name="message">В письме постарайтесь описать: \n
+    1. Что вы делали перед возникновением ошибки. \n
+    2. На какой странице выполяли действие. \n
+    3. Вашу версию Android ОС и модель смартфона. \n
+    4. По вашему мнению, что могло стать причиной ошибки. \n
+    Эта информация поможет найти решение проблемы. \n
+    Спасибо, что помогаете улучшить Arc!</string>
+    <string name="tex3">Укажите почту, на которую будет выслано сообщение о завершении изучения</string>
+    <string name="tex4">Придумайте код безопасноти, он служит подтверждением, что надстройка не была изменена</string>
+    <string name="edttxt9">Укажите почту</string>
+    <string name="edttxt10">Укажите код безопасности</string>
+    <string name="edttxt11">Введите код безопасноти</string>
+
+</resources>
